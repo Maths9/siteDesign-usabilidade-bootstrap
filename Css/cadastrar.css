@@ -1,4 +1,3 @@
-html,
 body * {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
@@ -303,22 +302,6 @@ textarea:focus {
   margin-top: -1px;
 }
 
-.btn-signup {
-  float: left;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 13px;
-  text-align: center;
-  color: #ffffff;
-  padding-top: 8px;
-  width: 100%;
-  height: 35px;
-  border: none;
-  border-radius: 20px;
-  margin-top: 23px;
-  background-color: #1059ff;
-}
-
 .btn-signin {
   float: left;
   padding-top: 8px;
@@ -357,13 +340,6 @@ textarea:focus {
   top: -420px;
   color: rgba(255, 255, 255, 0);
   background-color: rgba(255, 255, 255, 1);
-}
-
-a.btn-signup:hover,
-a.btn-signin:hover {
-  cursor: pointer;
-  background-color: #0f4fe6;
-  transition: background-color 0.5s;
 }
 
 .forgot {
@@ -408,40 +384,8 @@ a.btn-signin:hover {
   opacity: 1;
 }
 
-.cover-photo {
-  height: 150px;
-  position: relative;
-  left: 0px;
-  top: -900px;
-  background: linear-gradient(rgba(35, 43, 85, 0.75), rgba(35, 43, 85, 0.95)),
-    url(https://img.icons8.com/bubbles/100/000000/user.png);
-  background-size: cover;
-  opacity: 0;
-  transition: all 1.5s ease 0.55s;
-}
-
 .cover-photo-down {
   top: -575px;
-  opacity: 1;
-}
-
-.profile-photo {
-  height: 125px;
-  width: 125px;
-  position: relative;
-  border-radius: 70px;
-  left: 155px;
-  top: -1000px;
-  background: url(https://img.icons8.com/bubbles/100/000000/user.png);
-  background-size: 100% 135%;
-  background-position: 100% 100%;
-  opacity: 0;
-  transition: top 1.5s ease 0.35s, opacity 0.75s ease 0.5s;
-  border: solid 3px #ffffff;
-}
-
-.profile-photo-down {
-  top: -636px;
   opacity: 1;
 }
 
